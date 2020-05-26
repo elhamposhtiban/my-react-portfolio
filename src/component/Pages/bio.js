@@ -36,7 +36,7 @@ const Bio = () => {
                                 Highly enthusiastic about coding and learning new materials.
                                 Prepared to excel under stressful situations and maintain a sense of humor to collaborate with a team in a productive, positive manner across fast-paced settings.
                         </p>
-                        <h2 className="heading-third">
+                        {/* <h2 className="heading-third">
                             My Info
                         </h2>
                         <div className="row">
@@ -69,7 +69,7 @@ const Bio = () => {
                                         </li>
                                     </ul> 
                                 </div>
-                        </div>
+                        </div> */}
                         </div>
                 </section>
             </main>
