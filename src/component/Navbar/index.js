@@ -21,16 +21,8 @@ const closeHandler = () => setShowPage(false)
         <nav className="navigation__nav">
             <ul className="navigation__list">
 
-            <li className="navigation__item">
-                <a href="/bio" className="navigation__link"   >Home</a>
-            </li>
-            <li className="navigation__item">
-                <a href="/contact" className="navigation__link" >contact</a>
-            </li>
-            <li className="navigation__item">
-                <a href="/portfolio" className="navigation__link"  >portfolio</a>
-            </li>
-                {/* <li className="navigation__item">
+
+                <li className="navigation__item">
                 <Link to="/bio" className="navigation__link" onClick= {showHandler} >Home</Link>
                 </li>
                 <li className="navigation__item">
@@ -38,7 +30,7 @@ const closeHandler = () => setShowPage(false)
                 </li>
                 <li className="navigation__item">
                 <Link to="/portfolio" className="navigation__link" onClick= {showHandler}>portfolio</Link>
-                </li> */}
+                </li>
             </ul>
         </nav>
     </div>
@@ -47,3 +39,15 @@ const closeHandler = () => setShowPage(false)
 }
 
 export default Navbar;
+
+
+
+            {/* <li className="navigation__item">
+                <a href="/bio" className="navigation__link"   >Home</a>
+            </li>
+            <li className="navigation__item">
+                <a href="/contact" className="navigation__link" >contact</a>
+            </li>
+            <li className="navigation__item">
+                <a href="/portfolio" className="navigation__link"  >portfolio</a>
+            </li> */}
