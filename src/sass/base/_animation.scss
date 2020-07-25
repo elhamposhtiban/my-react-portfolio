@@ -27,7 +27,7 @@
        }
       }
    
-      @keyframes moveInBotton {
+    @keyframes moveInBotton {
    
        0%{
            opacity: 0;
@@ -39,3 +39,25 @@
            transform: translate(0);
           }
       }
+
+
+    @keyframes typewriter-bio-main {
+        from{width: 0; }
+        to{width: 19em;}
+    }
+
+    @keyframes blinkTextCursor-bio-main {
+        from{border-right-color: rgba(255,255,255,.75);}
+        to{border-right-color: transparent;}
+    }
+
+
+    @keyframes typewriter-bio-sub {
+        from{width: 0; }
+        to{width: 40em;}
+        }
+
+    @keyframes blinkTextCursor-bio-sub {
+        from{border-right-color: rgba(255,255,255,.75);}
+        to{border-right-color: transparent;}
+        }

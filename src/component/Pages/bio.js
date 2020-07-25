@@ -11,8 +11,8 @@ const Bio = () => {
             <header className="header">
             <div className="text-box">
                 <h1 className="heading-primary">
-                    <span className="heading-primary-main ">welcome to my portfolio</span>
-                    <span className="heading-primary-sub">here you can know me better as a full stack developer </span>
+                    <span className="heading-primary-main ">welcome to my portfolio </span>
+                    <span className="heading-primary-sub">know me better as a web developer... </span>
                 </h1>
                 <a href="#about-me" className="btn btn--white btn--wave"> let's start</a>
             </div>

@@ -6,7 +6,7 @@ const Navbar = () => {
 
     return (
 
-    <div className="navigation" showPage = {showPage}>
+    <div className="navigation">
 
         <input  type="checkbox" className="navigation__checkbox" id="navi_toggle"/>
         <label htmlFor="navi_toggle" className="navigation__button">

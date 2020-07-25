@@ -10,24 +10,29 @@ body {
     color: $color-white;
     text-transform: uppercase;
     backface-visibility: hidden;
-
+    text-align: center;
+ 
     &-main {
+
         display: block;
         font-size: 4rem;
         font-weight: 400;
-        letter-spacing:2rem;
-        animation-name: moveInLeft;
-        animation-duration: .7s;
-        animation-timing-function: ease-out;
+        letter-spacing:1rem;
+        border-right: 2px solid rgba(255,255,255,.75);
+        overflow: hidden; 
+        white-space: nowrap;
         margin-bottom: 2rem;
+        animation: typewriter-bio-main 4s steps(44) 1s 1 normal both,
+                   blinkTextCursor-bio-main 500ms steps(44) infinite normal;
+         
 
         @include respond(tab-land) { 
-            letter-spacing:2rem; 
+            letter-spacing:1rem; 
             font-size: 3rem;
         }
 
         @include respond(phone) { 
-            letter-spacing: 1rem; 
+            letter-spacing: .5rem; 
             font-size: 2rem;
         }
 
@@ -38,9 +43,12 @@ body {
         font-size: 2rem;
         font-weight: 700;
         letter-spacing: 1.3rem;
-        animation: moveInRight .7s ease-out;
+        border-right: 2px solid rgba(255,255,255,.75);
+        white-space: pre;
+        overflow: hidden; 
         margin-bottom: 4.5rem;
-
+        animation: typewriter-bio-sub 4s steps(44) 1s 1 normal both,
+                   blinkTextCursor-bio-sub 500ms steps(44) infinite normal;
         @include respond(phone) { 
             letter-spacing: 0.5rem; 
     
@@ -50,7 +58,7 @@ body {
 
 .text-box {
     position: absolute;
-    top: 45%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
@@ -113,7 +121,7 @@ body {
 }
   
 
-  .heading-typo {
+.heading-typo {
     position: relative;
     top: 50%;  
     width: 24em;
@@ -139,3 +147,8 @@ body {
     from{border-right-color: rgba(255,255,255,.75);}
     to{border-right-color: transparent;}
   }
+
+
+
+
+  
