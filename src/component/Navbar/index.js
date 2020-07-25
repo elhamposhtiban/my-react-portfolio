@@ -4,11 +4,6 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
 
-const [showPage, setShowPage] = useState(false)
-
-const showHandler = () => setShowPage(true)
-const closeHandler = () => setShowPage(false)
-
     return (
 
     <div className="navigation" showPage = {showPage}>
@@ -48,11 +43,11 @@ export default Navbar;
 
             
                 {/* <li className="navigation__item">
-                <Link to="/bio" className="navigation__link" onClick= {closeHandler} >Home</Link>
+                <Link to="/bio" className="navigation__link">Home</Link>
                 </li>
                 <li className="navigation__item">
-                <Link to="/contact" className="navigation__link" onClick= {closeHandler}>contact</Link>
+                <Link to="/contact" className="navigation__link">contact</Link>
                 </li>
                 <li className="navigation__item">
-                <Link to="/portfolio" className="navigation__link" onClick= {showHandler}>portfolio</Link>
+                <Link to="/portfolio" className="navigation__link">portfolio</Link>
                 </li> */}
