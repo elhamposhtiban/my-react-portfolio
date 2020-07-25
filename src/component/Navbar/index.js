@@ -21,16 +21,17 @@ const closeHandler = () => setShowPage(false)
         <nav className="navigation__nav">
             <ul className="navigation__list">
 
+            <li className="navigation__item">
+                <a href="/bio" className="navigation__link"   >Home</a>
+            </li>
+            <li className="navigation__item">
+                <a href="/contact" className="navigation__link" >contact</a>
+            </li>
+            <li className="navigation__item">
+                <a href="/portfolio" className="navigation__link"  >portfolio</a>
+            </li>
 
-                <li className="navigation__item">
-                <Link to="/bio" className="navigation__link" onClick= {showHandler} >Home</Link>
-                </li>
-                <li className="navigation__item">
-                <Link to="/contact" className="navigation__link" onClick= {showHandler}>contact</Link>
-                </li>
-                <li className="navigation__item">
-                <Link to="/portfolio" className="navigation__link" onClick= {showHandler}>portfolio</Link>
-                </li>
+
             </ul>
         </nav>
     </div>
@@ -42,12 +43,16 @@ export default Navbar;
 
 
 
-            {/* <li className="navigation__item">
-                <a href="/bio" className="navigation__link"   >Home</a>
-            </li>
-            <li className="navigation__item">
-                <a href="/contact" className="navigation__link" >contact</a>
-            </li>
-            <li className="navigation__item">
-                <a href="/portfolio" className="navigation__link"  >portfolio</a>
-            </li> */}
+
+
+
+            
+                {/* <li className="navigation__item">
+                <Link to="/bio" className="navigation__link" onClick= {closeHandler} >Home</Link>
+                </li>
+                <li className="navigation__item">
+                <Link to="/contact" className="navigation__link" onClick= {closeHandler}>contact</Link>
+                </li>
+                <li className="navigation__item">
+                <Link to="/portfolio" className="navigation__link" onClick= {showHandler}>portfolio</Link>
+                </li> */}

@@ -1,7 +1,17 @@
 import React from "react";
+import 'materialize-css';
 
 const Portfolio = () => {
     return (
+<> 
+    <header className="header-portfolio">
+      <div className="text-box">
+          <h1 className="heading-primary">
+              <p className="heading-typo anim-typewriter">welcome to my portfolio</p>
+          </h1>
+        
+      </div>
+      </header>
         <main>
         <section className="section-portfolio">
           <div className="u-center-text u-margin-bottom-big">
@@ -321,6 +331,8 @@ const Portfolio = () => {
           </div>
       </section>
       </main>
+
+      </>
     )
 }
 
