@@ -65,42 +65,37 @@ const Bio = () => {
                     
                      <hr></hr>
                     <div className="row">
-                        <div className="col-1-of-3">
+                        <div className="col-1-of-3 skill-section">
                        
-                        <img id="frontend-icon" src={ImageFrontEnd} alt="front end pic"
-                        class="animated fadeIn"/>
-               
-                        <h5 class="tech-header">Front-end</h5>
-                        <p>
-                            My front-end skills include HTML, CSS, and JavaScript. In addition, I am able to use other
-                            technologies like React and Bootstrap to
-                            create responsive web applications. Some of the front-end applications and websites that
-                            I've developed
-                            are Raygun Circus (official website), ESL Toolbox, and CoderGuides (React), which can
-                            be found in the <a href="freelance.html">freelance</a>
-                            section of my website. For more examples, visit the <a href="portfolio.html">portfolio</a> section.
+                        <img src={ImageFrontEnd} alt="front end pic"  className=" skill-icon animated fadeIn"/>
+                        <h5 className="heading-third">Front-end</h5>
+                        <p className="skill-typo">
+                            I am most interest in Front end technologies.
+                            My front-end skills include HTML, CSS, and JavaScript Languages.
+                            besides of these languages, I am skilled in some libraries Like jQuery, Bootstrap and SCSS.  
+                            Also, I am Using some Frameworks such as React, Handlebars, Redux to create  
+                            user-Friendly web applications.
                         </p>
 
                         </div>
-                        <div className="col-1-of-3">
-                        <p>
-                            My coding interests extend beyond the front-end. The technology and technical skills in
-                            my back-end toolbelt include Node, Express, NPM, REST, as well as the MongoDB and
-                            MySQL databases. Applications highlighting these skills are LIRI Bot and Bamazon, which can be
-                            found in the <a href="portfolio.html">portfolio</a> section of my website. Head on over and take a
-                            look at the
-                            demo videos I created for these applications.
+
+                        <div className="col-1-of-3 skill-section">
+                        <img src={ImageBackEnd} alt="front end pic"  className=" skill-icon animated fadeIn"/>
+                        <h5 className="heading-third">Back-end</h5>
+                        <p  className="skill-typo">
+                            The technology and technical skills in
+                            my back-end toolbelt include Node, Express, NPM, REST and User authentication as well as the MongoDB, 
+                            MySQL databases and Firebase. I love creating routes and connecting everything behind the scenes.
                         </p>
                         </div>
-                        <div className="col-1-of-3">
-                        <p>
+
+                        <div className="col-1-of-3 skill-section">
+                        <img src={ImageFullStack} alt="front end pic"  className=" skill-icon animated fadeIn"/>
+                        <h5 className="heading-third">FULl-Stack</h5>
+                        <p  className="skill-typo">
                             My skill set and experience extends to full-stack applications, which means creating and
                             developing a fully operational website, server and all, from scratch. I have developed applications
-                            using the MERN
-                            stack and RESTful routes. Full-stack MERN applications that I've developed include Friend Finder and
-                            Lucky Student, which can be found in the <a href="portfolio.html">portfolio</a> and <a
-                                href="freelance.html">freelance</a> sections of my
-                            website.
+                            using the MERN stack and RESTful routes.
                         </p>
                         </div>
                     </div> 
