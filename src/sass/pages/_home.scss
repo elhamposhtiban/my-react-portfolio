@@ -3,12 +3,16 @@
     margin-top: -15.5rem;
     padding: 15rem 0rem ; 
     background-image: linear-gradient(to right bottom, $color-grey-light-1 ,$color-grey-light-2);
-    display: flex;
-    justify-content: center;
     @include respond (tab-port) {
         padding:10rem 0;
         margin-top:-25.5rem;
     }
+}
+
+.about-card-container {
+    
+    display: flex;
+    justify-content: center;
 }
 
 .section-portfolio {

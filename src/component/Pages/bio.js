@@ -1,5 +1,8 @@
 import React from "react";
-import ImageProfile from "../../assets/images/elham.jpg"
+import ImageProfile from "../../assets/images/elham.jpg";
+import ImageFrontEnd from "../../assets/images/webdev2.jpg";
+import ImageBackEnd from "../../assets/images/database.png";
+import ImageFullStack from "../../assets/images/link.png";
 
 
 const Bio = () => {
@@ -19,40 +22,88 @@ const Bio = () => {
             <main>
                 <section className="section-stories">
 
-                    <div className="about-card" id="about-me">
-                        <div className="about-card__side about-card__side--front">
-                            <div className="about-card__picture about-card__picture--1">
-                                
-                            </div>
-                        <h4 className="about-card__heading">
-                            <figure className="story__shape">
-                                <img src={ImageProfile} alt="elham poshtiban" className="story__img"/>
-                            </figure>
-                        </h4>
-                            <div className="about-card__details">
-                                    <div className="heading-about">
+                    <div className="row about-card-container">
+  
+                            <div className="about-card" id="about-me">
+                            <div className="about-card__side about-card__side--front">
+                                <div className="about-card__picture about-card__picture--1">
+                                    
+                                </div>
+                            <h4 className="about-card__heading">
+                                <figure className="story__shape">
+                                    <img src={ImageProfile} alt="elham poshtiban" className="story__img"/>
+                                </figure>
+                            </h4>
+                                <div className="about-card__details">
+                                        <div className="heading-about">
 
-                                        <h1 className="heading-about__main">
-                                            ELHAM POSHTIBAN
-                                        </h1>
+                                            <h1 className="heading-about__main">
+                                                ELHAM POSHTIBAN
+                                            </h1>
                                             <hr></hr>
+                                            <p className="heading-about__sub">  WEB DEVELOPER | CREATIVE | ambitious | Innovator </p>
 
-                                        <p className="heading-about__sub">  WEB DEVELOPER | CREATIVE | ambitious | Innovator </p>
-
-                                    </div>
+                                        </div>
+                                </div>
+                            </div>
+                            <div className="about-card__side about-card__side--back about-card__side--back">
+                                <div className="about-card__cta">
+                                <p> ABOUT ME</p>
+                                <hr></hr>
+                                <p> Passionate, detail-oriented Full Stack Web Developer with a 
+                                    certificate from UT Austin coding Boot-camp and degree in Software Engineering.
+                                    Highly enthusiastic about coding and learning new materials.
+                                    Prepared to excel under stressful situations and maintain a sense of humor to 
+                                    collaborate with a team in a productive, positive manner across fast-paced settings.
+                                </p>
+                                </div>
                             </div>
                         </div>
-                        <div className="about-card__side about-card__side--back about-card__side--back">
-                            <div className="about-card__cta">
-                            <p> ABOUT ME</p>
-                            <hr></hr>
-                            <p> Passionate, detail-oriented Full Stack Web Developer with a certificate from UT Austin coding Boot-camp and degree in Software Engineering.
-                                Highly enthusiastic about coding and learning new materials.
-                                Prepared to excel under stressful situations and maintain a sense of humor to collaborate with a team in a productive, positive manner across fast-paced settings.
-                            </p>
-                            </div>
-                        </div>
+
                     </div>
+
+                    
+                     <hr></hr>
+                    <div className="row">
+                        <div className="col-1-of-3">
+                       
+                        <img id="frontend-icon" src={ImageFrontEnd} alt="front end pic"
+                        class="animated fadeIn"/>
+               
+                        <h5 class="tech-header">Front-end</h5>
+                        <p>
+                            My front-end skills include HTML, CSS, and JavaScript. In addition, I am able to use other
+                            technologies like React and Bootstrap to
+                            create responsive web applications. Some of the front-end applications and websites that
+                            I've developed
+                            are Raygun Circus (official website), ESL Toolbox, and CoderGuides (React), which can
+                            be found in the <a href="freelance.html">freelance</a>
+                            section of my website. For more examples, visit the <a href="portfolio.html">portfolio</a> section.
+                        </p>
+
+                        </div>
+                        <div className="col-1-of-3">
+                        <p>
+                            My coding interests extend beyond the front-end. The technology and technical skills in
+                            my back-end toolbelt include Node, Express, NPM, REST, as well as the MongoDB and
+                            MySQL databases. Applications highlighting these skills are LIRI Bot and Bamazon, which can be
+                            found in the <a href="portfolio.html">portfolio</a> section of my website. Head on over and take a
+                            look at the
+                            demo videos I created for these applications.
+                        </p>
+                        </div>
+                        <div className="col-1-of-3">
+                        <p>
+                            My skill set and experience extends to full-stack applications, which means creating and
+                            developing a fully operational website, server and all, from scratch. I have developed applications
+                            using the MERN
+                            stack and RESTful routes. Full-stack MERN applications that I've developed include Friend Finder and
+                            Lucky Student, which can be found in the <a href="portfolio.html">portfolio</a> and <a
+                                href="freelance.html">freelance</a> sections of my
+                            website.
+                        </p>
+                        </div>
+                    </div> 
 
                 </section>
             </main>
