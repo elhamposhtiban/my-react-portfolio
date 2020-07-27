@@ -10,6 +10,10 @@ body {
     color: $color-white;
     text-transform: uppercase;
     backface-visibility: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
     text-align: center;
  
     &-main {
@@ -29,12 +33,20 @@ body {
         @include respond(tab-land) { 
             letter-spacing:1rem; 
             font-size: 3rem;
+
         }
 
         @include respond(phone) { 
             letter-spacing: .5rem; 
             font-size: 2rem;
+          
+
+            animation: typewriter-bio-main-res 4s steps(44) 1s 1 normal both,
+            blinkTextCursor-bio-main 500ms steps(44) infinite normal;
+
         }
+
+        
 
     }
     
@@ -42,6 +54,7 @@ body {
         display: block;
         font-size: 2rem;
         font-weight: 700;
+        width: 60rem;
         letter-spacing: 1.3rem;
         border-right: 2px solid rgba(255,255,255,.75);
         white-space: pre;
@@ -51,6 +64,10 @@ body {
                    blinkTextCursor-bio-sub 500ms steps(44) infinite normal;
         @include respond(phone) { 
             letter-spacing: 0.5rem; 
+            font-size: 1.3rem;
+
+            animation: typewriter-bio-sub-res 4s steps(44) 1s 1 normal both,
+            blinkTextCursor-bio-sub 500ms steps(44) infinite normal;
     
         }
     }
@@ -58,10 +75,16 @@ body {
 
 .text-box {
     position: absolute;
+    width: 65%;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
+
+    @include respond(phone) { 
+        width: auto;
+
+    }
 }
 
 .heading-secondary {
@@ -123,31 +146,102 @@ body {
 
 .heading-typo {
     position: relative;
+    color: $color-white;
+    text-transform: uppercase;
+    backface-visibility: hidden;
     top: 50%;  
     width: 24em;
     margin: 0 auto;
     border-right: 2px solid rgba(255,255,255,.75);
-    font-size: 180%;
+    font-size: 5rem;
     text-align: center;
     white-space: nowrap;
     overflow: hidden;
-    transform: translateY(-50%);    
+    transform: translateY(-50%);   
+    
+    @include respond(tab-port) {  
+        width: 12em;
+        font-size: 3rem;
+       
+    }
+
+    @include respond(phone) {  
+        width: 12em;
+        font-size: 3rem;
+
+    }
 }
 
 /* Animation */
 .anim-typewriter{
   animation: typewriter 4s steps(44) 1s 1 normal both,
              blinkTextCursor 500ms steps(44) infinite normal;
+
+
 }
 @keyframes typewriter{
     from{width: 0;}
-    to{width: 12em;}
+    to{width: 14em;}
   }
   @keyframes blinkTextCursor{
     from{border-right-color: rgba(255,255,255,.75);}
     to{border-right-color: transparent;}
   }
 
+
+  .heading-about {
+
+    text-transform: uppercase;
+    display: inline-block;
+    background-image:linear-gradient(to right bottom, $color-pink-light-1, $color-pink-medium);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+
+    &__main {
+
+        font-size: 3.5rem;
+        font-weight: 700;
+        letter-spacing: .2rem;
+    
+        @include respond(tab-port) {  
+            font-size:3rem;
+        }
+    
+        @include respond(phone) {  
+            font-size:2.5rem;
+        }
+    
+    
+        &:hover {
+            text-shadow: .5rem 1rem 2rem rgba($color-black, .2) ;
+        }
+    }
+
+    &__sub {
+
+        font-size: 2rem;
+        font-weight: 700;
+        letter-spacing: .2rem;
+
+        @include respond(tab-port) {  
+           
+            font-size:2.5rem;
+        }
+       
+    
+        @include respond(phone) {  
+           
+            font-size:1.5rem;
+        }
+    
+    
+        &:hover {
+            text-shadow: .5rem 1rem 2rem rgba($color-black, .2) ;  
+        }
+    }
+
+  }
 
 
 

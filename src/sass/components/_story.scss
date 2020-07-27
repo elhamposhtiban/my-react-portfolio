@@ -27,20 +27,24 @@
     &__shape {
         width: 20rem;
         height: 20rem;
-        float:left;
+        position:absolute;
+        top: -11rem;
+        right: 1rem;
         -webkit-shape-outside: circle(50% at 50% 50%);
         shape-outside: circle(50% at 50% 50%);
         -webkit-clip-path:circle(50% at 50% 50%); 
         clip-path:circle(50% at 50% 50%); 
-        transform: translateX(-4rem) skewX(12deg);
 
         
         @include respond (phone){
 
             width: 15rem;
             height: 15rem;
+
+            top: -7rem;
+            right: 1rem;
         
-            transform:translateX(-4rem) skewX(0);
+
         
             }
     }

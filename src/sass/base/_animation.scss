@@ -43,8 +43,14 @@
 
     @keyframes typewriter-bio-main {
         from{width: 0; }
-        to{width: 19em;}
+        to{width: 21em;}
     }
+
+    @keyframes typewriter-bio-main-res {
+        from{width: 0; }
+        to{width: 20em;}
+    }
+
 
     @keyframes blinkTextCursor-bio-main {
         from{border-right-color: rgba(255,255,255,.75);}
@@ -54,7 +60,13 @@
 
     @keyframes typewriter-bio-sub {
         from{width: 0; }
-        to{width: 40em;}
+        to{width: 43em;}
+        }
+
+        
+    @keyframes typewriter-bio-sub-res {
+        from{width: 0; }
+        to{width: 34em;}
         }
 
     @keyframes blinkTextCursor-bio-sub {
