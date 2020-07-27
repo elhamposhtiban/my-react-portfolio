@@ -163,7 +163,7 @@
        &--back{
        transform: rotateY(0);
        clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
-       margin-top: -3.5rem;
+       margin-top: -5.5rem;
      }
    }
 
@@ -174,15 +174,20 @@
 
    &__details {
      padding: 1.5rem 3rem;
+     margin-bottom: 3.5rem;
  }
 
   &__cta{
      position: relative;
-     top: 0;
-     left: -3rem;
+    //  top: 0;
+     top: -61px;
+    //  left: -1rem;
+     left: 1rem;
      transform: translate(0);
      width: 90%;
-     padding:7rem 4rem 4rem 4rem;
+     
+     padding: 0rem 5rem 0rem 6rem
+    //  padding:7rem 4rem 4rem 4rem;
 
   }
    };
@@ -226,6 +231,7 @@
           &--back{
           transform: rotateY(180deg);
           background-image:linear-gradient(to right bottom, $color-pink-light-1, $color-pink-medium );
+          margin-top: 0;
           }
       }
   
@@ -290,7 +296,7 @@
   
       height: auto;
       width: auto;
-      padding: 3rem 3rem;
+      padding: 5rem 5rem;
       margin-bottom: 0.5rem;
       background-color: transparent;
       border: none;
@@ -304,8 +310,8 @@
   
           &--back{
           transform: rotateY(0);
-          clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
-          margin-top: -9.5rem;
+          clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
+          margin-top: -8.5rem;
         }
       }
       

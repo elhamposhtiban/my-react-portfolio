@@ -15,9 +15,9 @@ const Portfolio = () => {
         <main>
         <section className="section-portfolio">
           <div className="u-center-text u-margin-bottom-big">
-              {/* <h2 className="heading-secondary">
-                  My Portfolio
-              </h2> */}
+              <h2 className="heading-secondary">
+                  
+              </h2>
           </div>
           <div className="row">
               <div className="col-1-of-3">
