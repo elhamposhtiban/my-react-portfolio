@@ -3,16 +3,15 @@ import 'materialize-css';
 
 const Portfolio = () => {
     return (
-<> 
-    <header className="header-portfolio">
-      <div className="text-box">
-          <h1 className="heading-typo anim-typewriter">
-             welcome to my portfolio
-          </h1>
-        
-      </div>
+  <> 
+      <header className="header-portfolio">
+        <div className="text-box">
+            <h1 className="heading-typo anim-typewriter">
+              welcome to my portfolio
+            </h1>
+        </div>
       </header>
-        <main>
+      <main>
         <section className="section-portfolio">
           <div className="u-center-text u-margin-bottom-big">
               <h2 className="heading-secondary">
@@ -24,7 +23,7 @@ const Portfolio = () => {
                   <div className="card">
                       <div className="card__side card__side--front">
                           <div className="card__picture card__picture--1">
-                               
+                                
                           </div>
                           <h4 className="card__heading">
                               <span className="card__heading-span card__heading-span--1"> The Trivia Game</span>
@@ -44,20 +43,20 @@ const Portfolio = () => {
                           </div>
                       </div>
                   </div>
-                 
+                  
               </div>
               <div className="col-1-of-3">
                   <div className="card">
                       <div className="card__side card__side--front">
-                         <div className="card__picture card__picture--2">
+                          <div className="card__picture card__picture--2">
 
-                         </div>
-                         <h4 className="card__heading">
+                          </div>
+                          <h4 className="card__heading">
                           <span className="card__heading-span card__heading-span--2"> Train Vessels</span>
-                         </h4>
-                         <div className="card__details">
+                          </h4>
+                          <div className="card__details">
                           <p> A train departure guide that utilizes Firebase and Moment.js </p>
-                         </div>
+                          </div>
                       </div>
                       <div className="card__side card__side--back card__side--back">
                         <div className="card__cta">
@@ -124,10 +123,10 @@ const Portfolio = () => {
                         <p> 
                           The guessing game is a CLI application built using constructors. 
                           The app picks a random word (displayed with underscores), 
-                          and the user has 8 chances to guess the word. .
+                          and the user has 8 chances to guess the word.
                         </p>
                       </div>
-                   </div>
+                    </div>
                   <div className="card__side card__side--back card__side--back">
                     <div className="card__cta">
                       <a href="https://elhamposhtiban.github.io/gussing-game-node-constructor/" target="_blank" className="btn btn--white"> click here</a>
@@ -136,7 +135,7 @@ const Portfolio = () => {
                   </div>
               </div>
           </div>
-          <div className="col-1-of-3">
+            <div className="col-1-of-3">
             <div className="card">
                 <div className="card__side card__side--front">
                     <div className="card__picture card__picture--6">
@@ -151,7 +150,7 @@ const Portfolio = () => {
                         we allow the user to enter items into a database, so that they will always know where their items are located. 
                       </p>
                     </div>
-                 </div>
+                  </div>
                 <div className="card__side card__side--back card__side--back">
                   <div className="card__cta">
                     <a href="https://orgspaces.herokuapp.com/" target="_blank" className="btn btn--white"> click here</a>
@@ -175,7 +174,7 @@ const Portfolio = () => {
                         <p>Our mission for this site is to provide dietary plans and fitness product suggestions to clients 
                           for boosting health and body confidence. </p>
                       </div>
-                   </div>
+                    </div>
                   <div className="card__side card__side--back card__side--back">
                     <div className="card__cta">
                       <a href="https://adam-verma.github.io/project-1/" target="_blank" className="btn btn--white"> click here</a>
@@ -184,7 +183,7 @@ const Portfolio = () => {
                   </div>
               </div>
           </div>
-          <div className="col-1-of-3">
+            <div className="col-1-of-3">
             <div className="card">
                 <div className="card__side card__side--front">
                     <div className="card__picture card__picture--8">
@@ -201,7 +200,7 @@ const Portfolio = () => {
                         LIRI will search Spotify for songs, Bands in Town for concerts, and OMDB for movies. 
                       </p>
                     </div>
-                 </div>
+                  </div>
                 <div className="card__side card__side--back card__side--back">
                   <div className="card__cta">
                     <a href="https://elhamposhtiban.github.io/Liri-node-app/" target="_blank" className="btn btn--white"> click here</a>
@@ -210,7 +209,7 @@ const Portfolio = () => {
                 </div>
             </div>
         </div>
-        <div className="col-1-of-3">
+            <div className="col-1-of-3">
           <div className="card">
               <div className="card__side card__side--front">
                   <div className="card__picture card__picture--9">
@@ -226,7 +225,7 @@ const Portfolio = () => {
                       & Handlebars to generate the HTML.
                     </p>
                   </div>
-               </div>
+                </div>
               <div className="card__side card__side--back card__side--back">
                 <div className="card__cta">
                   <a href="https://enigmatic-gorge-46521.herokuapp.com/" target="_blank" className="btn btn--white"> click here</a>
@@ -242,7 +241,7 @@ const Portfolio = () => {
               <div className="card">
                   <div className="card__side card__side--front">
                       <div className="card__picture card__picture--10">
-  
+
                       </div>
                       <h4 className="card__heading">
                         <span className="card__heading-span card__heading-span"> Article-Scraper</span>
@@ -253,7 +252,7 @@ const Portfolio = () => {
                         leave comments, and save or delete articles.
                         </p> 
                       </div>
-                   </div>
+                    </div>
                   <div className="card__side card__side--back card__side--back">
                     <div className="card__cta">
                       <a href="https://intense-bastion-28486.herokuapp.com/" target="_blank" className="btn btn--white"> click here</a>
@@ -266,7 +265,7 @@ const Portfolio = () => {
               <div className="card">
                   <div className="card__side card__side--front">
                       <div className="card__picture card__picture--11">
-  
+
                       </div>
                       <h4 className="card__heading">
                         <span className="card__heading-span card__heading-span"> Bamazon App</span>
@@ -278,7 +277,7 @@ const Portfolio = () => {
                           various tasks using only the command line and a MySQL database.
                         </p>
                       </div>
-                   </div>
+                    </div>
                   <div className="card__side card__side--back card__side--back">
                     <div className="card__cta">
                       <a href="https://elhamposhtiban.github.io/bamazon/" target="_blank" className="btn btn--white"> click here</a>
@@ -291,7 +290,7 @@ const Portfolio = () => {
               <div className="card">
                   <div className="card__side card__side--front">
                       <div className="card__picture card__picture--12">
-  
+
                       </div>
                       <h4 className="card__heading">
                         <span className="card__heading-span card__heading-span"> Thrones Game</span>
@@ -303,7 +302,7 @@ const Portfolio = () => {
                           points and generate the high score. 
                         </p>
                       </div>
-                   </div>
+                    </div>
                   <div className="card__side card__side--back card__side--back">
                     <div className="card__cta">
                       <a href="https://cranky-noyce-6bf6c7.netlify.com/" target="_blank" className="btn btn--white"> Deploy Link</a>
@@ -319,18 +318,18 @@ const Portfolio = () => {
               <div className="card">
                   <div className="card__side card__side--front">
                       <div className="card__picture card__picture--13">
-  
+
                       </div>
                       <h4 className="card__heading">
                         <span className="card__heading-span card__heading-span"> Boogle </span>
                       </h4>
                       <div className="card__details">
-                       <p> 
-                         Boogle is an application that allows the user to search for books based on title or author,
+                        <p> 
+                          Boogle is an application that allows the user to search for books based on title or author,
                         using the Google books API. Users can store books on shelves, as well as delete them when no longer needed.
                         </p> 
                       </div>
-                   </div>
+                    </div>
                   <div className="card__side card__side--back card__side--back">
                     <div className="card__cta">
                       <a href="https://damp-cove-11110.herokuapp.com/" target="_blank" className="btn btn--white"> click here</a>
@@ -343,7 +342,7 @@ const Portfolio = () => {
               <div className="card">
                   <div className="card__side card__side--front">
                       <div className="card__picture card__picture--14">
-  
+
                       </div>
                       <h4 className="card__heading">
                         <span className="card__heading-span card__heading-span"> Something To Remember</span>
@@ -356,7 +355,7 @@ const Portfolio = () => {
                           Something to Remember is an MERN application. 
                         </p>
                       </div>
-                   </div>
+                    </div>
                   <div className="card__side card__side--back card__side--back">
                     <div className="card__cta">
                       <a href="https://some-thing-to-remember.herokuapp.com/" target="_blank" className="btn btn--white"> click here</a>
@@ -366,10 +365,10 @@ const Portfolio = () => {
               </div>
             </div>
           </div>
-      </section>
+        </section>
       </main>
 
-      </>
+  </>
     )
 }
 

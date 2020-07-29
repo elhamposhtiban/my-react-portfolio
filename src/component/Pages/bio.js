@@ -66,37 +66,35 @@ const Bio = () => {
                      <hr></hr>
                     <div className="row">
                         <div className="col-1-of-3 skill-section">
-                       
-                        <img src={ImageFrontEnd} alt="front end pic"  className=" skill-icon animated fadeIn"/>
-                        <h5 className="heading-third">Front-end</h5>
-                        <p className="skill-typo">
-                            I am most interest in Front end technologies.
-                            My front-end skills include HTML, CSS, and JavaScript Languages.
-                            besides of these languages, I am skilled in some libraries Like jQuery, Bootstrap and SCSS.  
-                            Also, I am Using some Frameworks such as React, Handlebars, Redux to create  
-                            user-Friendly web applications.
-                        </p>
-
+                            <img src={ImageFrontEnd} alt="front end pic"  className=" skill-icon animated fadeIn"/>
+                            <h5 className="heading-third">Front-end</h5>
+                            <p className="skill-typo">
+                                I am most interest in Front end technologies.
+                                My front-end skills include HTML, CSS, and JavaScript Languages.
+                                besides of these languages, I am skilled in some libraries Like jQuery, Bootstrap and SCSS.  
+                                Also, I am Using some Frameworks such as React, Handlebars, Redux to create  
+                                user-Friendly web applications.
+                            </p>
                         </div>
 
                         <div className="col-1-of-3 skill-section">
-                        <img src={ImageBackEnd} alt="front end pic"  className=" skill-icon animated fadeIn"/>
-                        <h5 className="heading-third">Back-end</h5>
-                        <p  className="skill-typo">
-                            The technology and technical skills in my back-end toolbelt include: 
-                            Node, Express, NPM, REST and User authentication as well as the MongoDB, 
-                            MySQL databases and Firebase. I am very skilled at connecting everything behind the scenes.
-                        </p>
+                            <img src={ImageBackEnd} alt="front end pic"  className=" skill-icon animated fadeIn"/>
+                            <h5 className="heading-third">Back-end</h5>
+                            <p  className="skill-typo">
+                                The technology and technical skills in my back-end toolbelt include: 
+                                Node, Express, NPM, REST and User authentication as well as the MongoDB, 
+                                MySQL databases and Firebase. I am very skilled at connecting everything behind the scenes.
+                            </p>
                         </div>
 
                         <div className="col-1-of-3 skill-section">
-                        <img src={ImageFullStack} alt="front end pic"  className=" skill-icon animated fadeIn"/>
-                        <h5 className="heading-third">FULl-Stack</h5>
-                        <p  className="skill-typo">
-                            My skill set and experience extends to full-stack applications, which means creating and
-                            developing a fully operational website, server and all, from scratch. I have developed applications
-                            using the MERN stack and RESTful routes.
-                        </p>
+                            <img src={ImageFullStack} alt="front end pic"  className=" skill-icon animated fadeIn"/>
+                            <h5 className="heading-third">FULl-Stack</h5>
+                            <p  className="skill-typo">
+                                My skill set and experience extends to full-stack applications, which means creating and
+                                developing a fully operational website, server and all, from scratch. I have developed applications
+                                using the MERN stack and RESTful routes.
+                            </p>
                         </div>
                     </div> 
 
