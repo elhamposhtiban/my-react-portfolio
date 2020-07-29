@@ -83,9 +83,9 @@ const Bio = () => {
                         <img src={ImageBackEnd} alt="front end pic"  className=" skill-icon animated fadeIn"/>
                         <h5 className="heading-third">Back-end</h5>
                         <p  className="skill-typo">
-                            The technology and technical skills in
-                            my back-end toolbelt include Node, Express, NPM, REST and User authentication as well as the MongoDB, 
-                            MySQL databases and Firebase. I love creating routes and connecting everything behind the scenes.
+                            The technology and technical skills in my back-end toolbelt include: 
+                            Node, Express, NPM, REST and User authentication as well as the MongoDB, 
+                            MySQL databases and Firebase. I am very skilled at connecting everything behind the scenes.
                         </p>
                         </div>
 

@@ -23,21 +23,25 @@ const Portfolio = () => {
               <div className="col-1-of-3">
                   <div className="card">
                       <div className="card__side card__side--front">
-                         <div className="card__picture card__picture--1">
+                          <div className="card__picture card__picture--1">
                                
-                         </div>
-                         <h4 className="card__heading">
-                             <span className="card__heading-span card__heading-span--1"> The Trivia Game</span>
-                         </h4>
-                         <div className="card__details">
-                          <p> This is trivia a game based on Friends show.This application is a timed trivia game where the user will be prompted to start and complete a series of questions. The game will utilize HTML, Bootstrap CSS, JQuery, & Javascript.</p>
-                         </div>
+                          </div>
+                          <h4 className="card__heading">
+                              <span className="card__heading-span card__heading-span--1"> The Trivia Game</span>
+                          </h4>
+                          <div className="card__details">
+                            <p> 
+                              This timed trivia game is based on the show Friends. The user is prompted to 
+                              complete a series of questions. The game utilizes HTML, CSS, Bootstrap, jQuery, 
+                              and JavaScript.The game will utilize HTML, Bootstrap CSS, JQuery, & Javascript.
+                            </p>   
+                          </div>
                       </div>
                       <div className="card__side card__side--back card__side--back">
                           <div className="card__cta">
                               <a href="https://elhamposhtiban.github.io/Triviagame/" target="_blank" className="btn btn--white"> click here</a>
                               <a href="https://github.com/elhamposhtiban/Triviagame" target="_blank" className="btn btn--white mt-4"> Git Hub Link</a>
-                            </div>
+                          </div>
                       </div>
                   </div>
                  
@@ -75,7 +79,7 @@ const Portfolio = () => {
                           <div className="card__details">
                             <p> Create Giphy Application is Using the Giphy API to make a dynamic web page that populates with gifs</p>
                           </div>
-                       </div>
+                      </div>
                       <div className="card__side card__side--back card__side--back">
                         <div className="card__cta">
                           <a href="https://elhamposhtiban.github.io/giphy/" target="_blank" className="btn btn--white"> click here</a>
@@ -117,7 +121,11 @@ const Portfolio = () => {
                         <span className="card__heading-span card__heading-span"> Guessing Game</span>
                       </h4>
                       <div className="card__details">
-                        <p> Guessing game is a cli application which using constructors. The app pick one random word and show it like underscore and the user supposed to guess the word and the user has 8 chances to guess the letters of the word if the user can not guess she or he will be game over and app will ask you you wanna play again or not.</p>
+                        <p> 
+                          The guessing game is a CLI application built using constructors. 
+                          The app picks a random word (displayed with underscores), 
+                          and the user has 8 chances to guess the word. .
+                        </p>
                       </div>
                    </div>
                   <div className="card__side card__side--back card__side--back">
@@ -135,11 +143,13 @@ const Portfolio = () => {
 
                     </div>
                     <h4 className="card__heading">
-                      <span className="card__heading-span card__heading-span"> Orgnize Spaces</span>
+                      <span className="card__heading-span card__heading-span"> Organized Spaces</span>
                     </h4>
                     <div className="card__details">
-                      <p>It is 2020 and it is the year for clarity. We will help jump start your life by helping you get organized! With Orgnized Spaces we will allow the 
-                        to enter and store items in a database so that the user will always know where their items are located. </p>
+                      <p>It is 2020 and it is the year for clarity. 
+                        We will help jump start your life by helping you get organized! With organized spaces, 
+                        we allow the user to enter items into a database, so that they will always know where their items are located. 
+                      </p>
                     </div>
                  </div>
                 <div className="card__side card__side--back card__side--back">
@@ -184,8 +194,12 @@ const Portfolio = () => {
                       <span className="card__heading-span card__heading-span"> LIRI application</span>
                     </h4>
                     <div className="card__details">
-                      <p>LIRI is like iPhone's SIRI. However, while SIRI is a Speech Interpretation and Recognition Interface, LIRI is a Language Interpretation and Recognition Interface.
-                        LIRI will be a command line node app that takes in parameters and gives you back data.LIRI will search Spotify for songs, Bands in Town for concerts, and OMDB for movies. </p>
+                      <p>
+                        LIRI is like iPhone's SIRI. However, while SIRI is a Speech Interpretation and 
+                        Recognition Interface, LIRI is a Language Interpretation and Recognition Interface.
+                        LIRI will be a command line node app that takes in parameters and gives you back data.
+                        LIRI will search Spotify for songs, Bands in Town for concerts, and OMDB for movies. 
+                      </p>
                     </div>
                  </div>
                 <div className="card__side card__side--back card__side--back">
@@ -206,7 +220,11 @@ const Portfolio = () => {
                     <span className="card__heading-span card__heading-span"> Burger App</span>
                   </h4>
                   <div className="card__details">
-                    <p>Burger is an app that you can create your favorite Burgers there. The application utilizes the MVC model, requires Node and MySQL to query and route data, & Handlebars to generate the HTML.</p>
+                    <p>
+                      Burger is an app that you can create your favorite Burgers there. 
+                      The application utilizes the MVC model, requires Node and MySQL to query and route data, 
+                      & Handlebars to generate the HTML.
+                    </p>
                   </div>
                </div>
               <div className="card__side card__side--back card__side--back">
@@ -227,10 +245,13 @@ const Portfolio = () => {
   
                       </div>
                       <h4 className="card__heading">
-                        <span className="card__heading-span card__heading-span"> article-scraper</span>
+                        <span className="card__heading-span card__heading-span"> Article-Scraper</span>
                       </h4>
                       <div className="card__details">
-                       <p> This is an app that allows the user to see articles from the Newsweek website and leave comments on each one they want and save or delete any article.</p> 
+                        <p> 
+                        This is an app that allows the user to see articles from the Newsweek website, 
+                        leave comments, and save or delete articles.
+                        </p> 
                       </div>
                    </div>
                   <div className="card__side card__side--back card__side--back">
@@ -251,7 +272,11 @@ const Portfolio = () => {
                         <span className="card__heading-span card__heading-span"> Bamazon App</span>
                       </h4>
                       <div className="card__details">
-                        <p> Bamazon is CLI app that functions as a mock Amazon product. Using MySQL and terminal commands, the user will be able to accomplish various tasks using only the command line and a MySQL database.</p>
+                        <p> 
+                          Bamazon is CLI app that functions as a mock Amazon product. 
+                          Using MySQL and terminal commands, the user will be able to accomplish 
+                          various tasks using only the command line and a MySQL database.
+                        </p>
                       </div>
                    </div>
                   <div className="card__side card__side--back card__side--back">
@@ -272,7 +297,11 @@ const Portfolio = () => {
                         <span className="card__heading-span card__heading-span"> Thrones Game</span>
                       </h4>
                       <div className="card__details">
-                        <p>Thrones game is a basic memory game utilizing react. The user will need to click images within the app to score points and generate the high score. </p>
+                        <p>
+                          Thrones game is a basic memory game utilizing react. 
+                          The user will need to click images within the app to score 
+                          points and generate the high score. 
+                        </p>
                       </div>
                    </div>
                   <div className="card__side card__side--back card__side--back">
@@ -296,7 +325,10 @@ const Portfolio = () => {
                         <span className="card__heading-span card__heading-span"> Boogle </span>
                       </h4>
                       <div className="card__details">
-                       <p> Boogle is an application that allows you to search for books based on title or author by using the Google API key and you can store the books you like on your bookshelf and remove those from bookshelf when you do not want them anymore.</p> 
+                       <p> 
+                         Boogle is an application that allows the user to search for books based on title or author,
+                        using the Google books API. Users can store books on shelves, as well as delete them when no longer needed.
+                        </p> 
                       </div>
                    </div>
                   <div className="card__side card__side--back card__side--back">
@@ -317,7 +349,12 @@ const Portfolio = () => {
                         <span className="card__heading-span card__heading-span"> Something To Remember</span>
                       </h4>
                       <div className="card__details">
-                        <p>Something To Remember is a wedding planner application. For those couples who want to get married and they need help to simply manage their dream day. here we offer them really cool features in our application.</p>
+                        <p>
+                          Something to Remember is a wedding planner application. 
+                          For those couples who want to get married and need help 
+                          in managing details of their dream day. 
+                          Something to Remember is an MERN application. 
+                        </p>
                       </div>
                    </div>
                   <div className="card__side card__side--back card__side--back">
