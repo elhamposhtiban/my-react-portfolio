@@ -129,7 +129,7 @@
 
        &__cta{
            position: absolute;
-           top: 50%;
+           top: 32%;
            left: 50%;
            transform: translate(-50%, -50%);
            width: 90%;
@@ -266,13 +266,6 @@
           right: 2rem;
           width: 70%;
       }
-  
-      // &__heading-span {
-      //      padding: 1rem 1.5rem;
-      //      -webkit-box-decoration-break: clone;
-      //      box-decoration-break: clone;
-      //     background-image: linear-gradient(to right bottom, rgba($color-pink-light-1, .85) ,rgba($color-pink-medium, .85));
-      //     }
   
           &__cta{
               position: absolute;
