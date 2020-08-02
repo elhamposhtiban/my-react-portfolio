@@ -21,9 +21,10 @@ const Footer = () => {
             </div>
             <div className="col-2-of-3">
                 <p className="footer__copyright">
-                     copyright&copy;by Elham Poshtiban.
+                     COPYRIGHT &copy; 2020 BY ELHAM POSHTIBAN.
                      <br/>
-                      you are 100% allowed to use this webpage for both personal and commercial use but NOT to claim it as your own design.A credit to author, Elham poshtiban, is of course highly appreciated!
+                     ALL RIGHTS RESERVED
+                      {/* you are 100% allowed to use this webpage for both personal and commercial use but NOT to claim it as your own design.A credit to author, Elham poshtiban, is of course highly appreciated! */}
                 </p>
             </div>
         </div>
