@@ -32,7 +32,7 @@ const Portfolio = () => {
                             <p> 
                               This timed trivia game is based on the show Friends. The user is prompted to 
                               complete a series of questions. The game utilizes HTML, CSS, Bootstrap, jQuery, 
-                              and JavaScript.The game will utilize HTML, Bootstrap CSS, JQuery, & Javascript.
+                              and JavaScript. The game will utilize HTML, Bootstrap CSS, JQuery, & Javascript.
                             </p>   
                           </div>
                       </div>
@@ -76,7 +76,7 @@ const Portfolio = () => {
                             <span className="card__heading-span card__heading-span--3"> Create Giphys</span>
                           </h4>
                           <div className="card__details">
-                            <p> Create Giphy Application is Using the Giphy API to make a dynamic web page that populates with gifs</p>
+                            <p> Create Giphy Application is using the Giphy API to make a dynamic web page that populates with GIFs</p>
                           </div>
                       </div>
                       <div className="card__side card__side--back card__side--back">
@@ -220,7 +220,7 @@ const Portfolio = () => {
                   </h4>
                   <div className="card__details">
                     <p>
-                      Burger is an app that you can create your favorite Burgers there. 
+                      Burger is an app that lets you create your favorite Burgers, and eat them! 
                       The application utilizes the MVC model, requires Node and MySQL to query and route data, 
                       & Handlebars to generate the HTML.
                     </p>

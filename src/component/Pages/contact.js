@@ -20,7 +20,7 @@ const Contact = () => {
                             <FontAwesomeIcon icon={faUser} size="3x" className="form__icon"/>
                             </span>
                           </div>
-                            <input type="text" placeholder="full name" id="name" className="form__input" required/>
+                            <input type="text" placeholder="Full Name" id="name" className="form__input" required/>
                             <label htmlFor="name" className="form__label">Full name</label>
                         </div>
                         <div className="form__group input-group">
@@ -29,7 +29,7 @@ const Contact = () => {
                             <FontAwesomeIcon icon={faEnvelope} size="3x" className="form__icon"/>
                             </span>
                           </div>
-                            <input type="email" placeholder="Email address" id="email" className="form__input" required/>
+                            <input type="email" placeholder="Email Address" id="email" className="form__input" required/>
                             <label htmlFor="email" className="form__label">Email address</label>
                         </div>
                         <div className="form__group input-group u-margin-bottom-medium">
